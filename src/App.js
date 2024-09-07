@@ -6,14 +6,12 @@ import SocialMedia from './pages/SocialMedia'
 
 function App() {
   return (
-<<<<<<< HEAD
 	<Router>
 		<Routes>
 			<Route path='/' element={<Home />} />
 			<Route path='/social-media' element={<SocialMedia />} />
 		</Routes>
 	</Router>
-=======
     
     <div className="App backcolor">
       <header class="header">
@@ -65,7 +63,6 @@ function App() {
         </div>
       </body> 
     </div>
->>>>>>> 40e5cfa74cbff94d915f682c911b4c4135611ec9
   );
 }
 
