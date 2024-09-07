@@ -10,7 +10,7 @@ function App() {
             <a href="#" class="nav-logo">Name</a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="" class="nav-link">videos</a>
+                    <a href="#" class="nav-link">Social Media</a>
                 </li>
                 <li class="nav-item">
                     <a href="#" class="nav-link">hello</a>
