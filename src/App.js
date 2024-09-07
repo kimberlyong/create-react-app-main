@@ -3,9 +3,32 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>bye</h1>
-      <header className="App-header">
+    <div className="App backcolor">
+      <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">Name</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="format">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+</header>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -18,38 +41,17 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-      <body>
-      <nav class="navbar navbar-default navbar-fixed-top menuCustom">
-		<div class="container">
-			<!-- this part of the menu will stay visible -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed"
-				data-toggle="collapse" data-target="#navbar"
-				aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand logo" href="#">
-					<!-- add image icon here-->
-
-				</a>
+      </header> */}
+      <body class ="backcolor">
+      <div class="embed-responsive embed-responsive-16by9">
+				<iframe
+					class="embed-responsive-item"
+					src="https://www.youtube.com/embed/eG8MeI0DnAA"
+					frameborder="0"
+					allowfullscreen>
+				</iframe>
 			</div>
-			<!-- this part of the menu will collapse -->
-			<div id="navbar" class="navbar-collapse collapse">
-				<ul class="nav navbar-nav">
-					<li><a href="" class="options"></a></li>
-					<li><a href="" class="options"></a></li>
-					<li><a href="" class="options"></a></li>
-					<li><a href="" class="options"></a></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-      </body>
+      </body> 
     </div>
   );
 }
