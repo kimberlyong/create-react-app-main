@@ -110,3 +110,26 @@ a {
   background-color: rgb(0, 0, 0);
   background-size: full;
 }
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+
+}
+
+.label {
+  width:392px;
+  background-color:lightblue;
+  padding:3px;
+  border:1px solid silver;
+}
+.inputWidth { width:395px; }
+.commentsWidth { width:395px; height:80px; }
+.selectWidth { width:400px; }
+.buttonStyle {
+  width:400px;
+  color:white;
+  background-color:navy;
+  font-weight:bold;
+}

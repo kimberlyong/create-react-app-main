@@ -54,6 +54,11 @@ function App() {
       </header> */}
       <body class ="backcolor">
         <div class="embed-responsive embed-responsive-16by9">
+          
+          <h1 class = "center App-link">How are you doing?</h1>
+          <div class="center App-link"> Hello</div>
+            <input class="" type="text" name="hru"
+	          placeholder="name"/>
           <iframe
             class="embed-responsive-item"
             src=""
