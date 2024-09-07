@@ -9,16 +9,16 @@ function App() {
             <a href="#" class="nav-logo">Name</a>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Services</a>
+                    <a href="#" class="nav-link">videos</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Blog</a>
+                    <a href="#" class="nav-link">hello</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">About</a>
+                    <a href="#" class="nav-link">info</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="#" class="nav-link">other stuff</a>
                 </li>
             </ul>
             <div class="format">
@@ -43,14 +43,14 @@ function App() {
         </a>
       </header> */}
       <body class ="backcolor">
-      <div class="embed-responsive embed-responsive-16by9">
-				<iframe
-					class="embed-responsive-item"
-					src="https://www.youtube.com/embed/eG8MeI0DnAA"
-					frameborder="0"
-					allowfullscreen>
-				</iframe>
-			</div>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe
+            class="embed-responsive-item"
+            src=""
+            frameborder="0"
+            allowfullscreen>
+          </iframe>
+        </div>
       </body> 
     </div>
   );
